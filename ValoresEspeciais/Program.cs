@@ -98,6 +98,11 @@ namespace ValoresEspeciais
             ($"+infinity: {posinfinite}, -infinity: {neginfinite}");
             Console.WriteLine($"Not a Number: {notanumber}");
 
+            //Exercice 7
+            uint uintmax2 = ushort.MaxValue;
+            Console.WriteLine((ushort)(uintmax2+1));
+            
+
             
 
         }
