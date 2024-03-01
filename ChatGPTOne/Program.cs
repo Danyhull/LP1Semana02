@@ -6,7 +6,9 @@ namespace ChatGPTOne
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //Var
+            string question, response;
+            bool exit = true;
         }
     }
 }
