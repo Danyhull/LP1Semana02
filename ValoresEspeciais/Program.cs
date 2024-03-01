@@ -55,6 +55,41 @@ namespace ValoresEspeciais
             decimal decimalmx = decimal.MaxValue;
             decimal decimalmn = decimal.MinValue;
 
+
+            //print das variáveis
+            //sbyte
+            Console.WriteLine($"sbyte max: {sbytemx}, sbyte min: {sbytemn}");
+
+            //short
+            Console.WriteLine($"short max: {shortmx}, short min: {shortmn}");
+
+            //int
+            Console.WriteLine($"int max: {intmx}, int min: {intmn}");
+
+            //long
+            Console.WriteLine($"long max: {longmx}, long min: {longmn}");
+
+            //byte
+            Console.WriteLine($"byte max: {bytemx}, byte min: {bytemn}");
+
+            //ushort
+            Console.WriteLine
+            ($"ushort max: {ushortmx}, ushort min: {ushortmn}");
+            //uint
+            Console.WriteLine($"uint max: {uintmx}, uint min: {uintmn}");
+            //ulong
+            Console.WriteLine($"ulong max: {ulongmx}, ulong min: {ulongmn}");
+            //char
+            Console.WriteLine($"char max: {charmx}, char min: {charmn}");
+            //float
+            Console.WriteLine($"float max: {floatmx}, float min: {floatmn}");
+            //double
+            Console.WriteLine
+            ($"double max: {doublemx}, double min: {doublemn}");
+            //decimal
+            Console.WriteLine
+            ($"decimal max: {decimalmx}, decimal min: {decimalmn}");
+
             
 
         }
