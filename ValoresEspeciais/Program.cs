@@ -99,9 +99,13 @@ namespace ValoresEspeciais
             Console.WriteLine($"Not a Number: {notanumber}");
 
             //Exercice 7
-            uint uintmax2 = ushort.MaxValue;
-            Console.WriteLine((ushort)(uintmax2+1));
-            
+            uint uintmx2 = ushort.MaxValue;
+            Console.WriteLine((ushort)(uintmx2+1));
+            float overflow = 2*float.MaxValue;
+            Console.WriteLine(overflow);
+            float overflow1 = float.MaxValue + 1;
+            Console.WriteLine(overflow1);
+
 
             
 
